@@ -50,6 +50,11 @@ func getCliCommands() map[string]cliCommands {
 			description: "Displays a help message",
 			callback:    callbackHelp,
 		},
+		"map": {
+			name:        "map",
+			description: "Displays some of the locations",
+			callback:    callbackMap,
+		},
 		"exit": {
 			name:        "exit",
 			description: "Exits the pokedex",
